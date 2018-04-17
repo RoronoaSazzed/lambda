@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-
+<!--
+BOOTSTRAP & HTML5 BOILER PLATE JS JQ INTEGRATION ALTOGETHER
+Author: Roronoa Sazzed
+Email: mysticyagami7@gmail.com
+URL: http://roronoasazzed.com/
+-->
 <html>
     <head>
-        <title>LAMBDA</title>
+        <title>Lambda</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- for icon at tab -->
         <link rel="icon" href="images/logo_icon.png" type="image/x-icon">
-
-        <!-- animation -->
-        <link href="animate/animate.css" rel="stylesheet" type="text/css"/>
-        <link href="animate/set.css" rel="stylesheet" type="text/css"/>
 
         <!-- bootstrap integration for css-->
         <link href="css/bootstrap-theme.css" type="text/css" rel="stylesheet">
@@ -26,11 +27,13 @@
         <!--font awesome integration -->
         <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+
         <!-- font integration -->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,10000" rel="stylesheet">
-        <link href="http://allfont.net/allfont.css?fonts=montserrat-light" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Yeseva+One" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Yeseva+One" rel="stylesheet">
+
+
 
         <!-- linking css file with html -->
         <link href="css/style.css" type="text/css" rel="stylesheet">
@@ -39,10 +42,10 @@
     <body>
         <!-- body part start -->
 
-        <!-- 1st part start -->
-        <div class="container-fluid container-wrapper">
+        <!-- div one starts -->
 
-            <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid divOne">
+            <div class="navbar navbar-default navbar-fixed-top text-uppercase" role="navigation">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -51,27 +54,24 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a href="" class="navbar-brand"><img class="img-responsive" src="images/logo.png" alt="Lambda"></a>
+                        <a href="#"><img src="images/logo.png" alt=""></a>
                     </div>
                     <div class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav navbar-right margin-navbar">
+                        <ul class="nav navbar-nav navbar-right">
                             <li>
-                                <a href="#">HOME</a>
+                                <a href="#">home</a>
                             </li>
                             <li>
-                                <a href="#">ABOUT</a>
+                                <a href="#">menu</a>
                             </li>
                             <li>
-                                <a href="#">INGREDIENTS</a>
+                                <a href="#">reservations</a>
                             </li>
                             <li>
-                                <a href="#">MENU</a>
+                                <a href="#">news</a>
                             </li>
                             <li>
-                                <a href="#">REVIEWS</a>
-                            </li>
-                            <li>
-                                <a href="#">RESERVATIONS</a>
+                                <a href="#">contact</a>
                             </li>
                             <li>
                                 <a href="#"><i class="fa fa-twitter "></i></a>
@@ -86,291 +86,370 @@
                     </div>
                 </div>
             </div>
-            <br>
-            <div class="row margin-the-right-iungredients text-center center-block">
-                <h1 class="the-right-ingredients ">the right ingredients for<br>the right food</h1>
-                <img class="img-responsive text-center center-block pechano-white" src="images/pechano-white.png" alt="Pechano White :)">
-            </div>
-            <div class="col-md-6 col-sm-6 col-xs-12 bottom">
-                <a href="#" class="btn BOOK-A-TABLE">BOOK A TABLE</a>
-            </div>
-            <div class="col-md-6 col-sm-6 col-xs-12 bottom">
-                <a href="#" class="btn SEE-THE-MENU">SEE THE MENU</a>
+            <div class="container">
+                <h1 class="mainHeader text-center">the right ingredients for<br>
+                    the right food</h1>
+                <img src="images/pechano-white.png" class="text-center center-block" alt="">
+
+                <ul class="list-unstyled list-inline marginBtn text-center center-block text-uppercase">
+                    <li>
+                        <a href="#" class="btn btnBook">book a table</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="btn btnMenu" >see the menu</a>
+                    </li>
+                </ul>
             </div>
         </div>
 
-        <!-- 2nd part start -->
 
-        <div class="container-fluid">
-            <div class="row second-wrapper">
-                <div class="col-md-6 col-sm-6 col-xs-12 text-center center-block margin-second-wrapper">
-                    <h1 class="Just-the-right-food">Just the right food</h1>
-                    <img class="pechano-border" src="images/pechano_border.png" alt="pechano-border">
-                    <p>you’ve been to one of our restaurants, you’ve seen – and<br>
-                        tasted – what keeps our customers coming back for more.<br>
-                        Perfect materials and freshly baked food, delicious Lambda<br>
-                        cakes, muffins, and gourmet coffees make us hard to resist!<br>
+        <!-- div one ends -->
+
+        <!-- div two starts -->
+
+        <div class="container-fluid divTwo">
+            <div class="container">
+                <div class="mainFlex text-center">
+                    <div class="firstFlex">
+                        <h1>just the right food</h1>
+                        <img class="text-center center-block" src="images/pechano_border.png" alt="">
+                        <p>
+                            You’ve been to one of our restaurants, you’ve seen – and
+                            tasted – what keeps our customers coming back for more.
+                            Perfect materials and freshly baked food, delicious Lambda
+                            cakes, muffins, and gourmet coffees make us hard to resist!
+                            Stop in today and check us out!
+                        </p>
+
+                        <img  class="img-responsive text-center center-block" src="images/cook.png" alt="">
+
+                    </div>
+
+                    <div class="secondFlex">
+                        <img class="img-responsive text-center center-block" src="images/dish.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- div two ends -->
+
+
+        <!-- div three starts -->
+
+        <div class="container-fluid divThree">
+            <div class="container">
+                <div class="col-md-6 col-sm-6 col-xs-1"></div>
+                <div class="col-md-6 col-sm-6 col-xs-10 ingredientsDiv text-center">
+                    <h1>fine ingredients</h1>
+                    <img class="img-responsive text-center center-block" src="images/pechano-white.png" alt="">
+                    <p>
+                        you’ve been to one of our restaurants, you’ve seen – and
+                        tasted – what keeps our customers coming back for more.
+                        Perfect materials and freshly baked food, delicious Lambda
+                        cakes, muffins, and gourmet coffees make us hard to resist!
                         Stop in today and check us out!
                     </p>
-                    <img class="cook text-center center-block img-responsive" src="images/cook.png" alt="Cook">
+                    <ul class="list-inline list-unstyled">
+                        <li>
+                            <img class="img-responsive" src="images/circle1.png" alt=""/>
+                        </li>
+                        <li>
+                            <img class="img-responsive" src="images/circle2.png" alt=""/>
+                        </li>
+                        <li>
+                            <img class="img-responsive" src="images/circle3.png" alt=""/>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-md-6 col-sm-6 col-xs-12 margin-second-wrapper text-center center-block">
-                    <img class="img-responsive" src="images/dish.png" alt="">
-                </div>
+                <div class="col-xs-1"></div>
             </div>
         </div>
 
-        <!-- 3rd part start -->
+        <!-- div three ends -->
 
-        <div class="container-fluid third-wrapper">
-            <div class="row fine-ingredients-box">
+        <!-- div four starts -->
 
-                <div class="col-md-offset-6 col-sm-offset-6 col-md-4 col-sm-4 col-xs-12 box-opacity">
-                    <h1 class="Fine-ingredients text-center center-block">Fine Ingredients</h1>
-                    <img class="text-center center-block" src="images/pechano-white.png" alt="">
-
-                    <div class="text-center center-block">
-                        <p class="fine-ingredient-white">you’ve been to one of our restaurants, you’ve seen – and<br>
-                            tasted – what keeps our customers coming back for more.<br>
-                            Perfect materials and freshly baked food, delicious Lambda<br>
-                            cakes, muffins, and gourmet coffees make us hard to resist!<br>
-                            Stop in today and check us out!</p>
-                        <br>
-                        <div class="col-md-4 col-sm-4 col-xs-4">
-                            <img class="img-responsive text-right" src="images/circle1.png" alt="">
+        <div class="container-fluid divFour">
+            <div class="container">
+                <div class="col-md-6 col-sm-6 col-xs-12" style="background-color: greenyellow;">
+                    <h1>appetisers</h1>
+                    <img class="img-responsive" src="images/pechano_border.png" alt=""/>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-left">
+                            <h1>tzatsiki</h1>
                         </div>
-
-                        <div class="col-md-4 col-sm-4 col-xs-4">
-                            <img class="img-responsive" src="images/circle2.png" alt="">
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+                            <h1>$3.99</h1>
                         </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                        </div>
+                    </div>
 
-                        <div class="col-md-4 col-sm-4 col-xs-4">
-                            <img class="img-responsive text-left" src="images/circle3.png" alt="">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-left">
+                            <h1>aubergine salad</h1>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+                            <h1>$5.50</h1>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-left">
+                            <h1>pastitaslo</h1>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+                            <h1>$5.29</h1>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-6 col-sm-6 col-xs-12" style="background-color: coral;">
+                    <h1>starters</h1>
+                    <img class="img-responsive" src="images/pechano_border.png" alt=""/>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-left">
+                            <h1>haloume</h1>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+                            <h1>$3.99</h1>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-left">
+                            <h1>spanish ple</h1>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+                            <h1>$5.50</h1>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Part two menu -->
+
+            <div class="container">
+                <div class="col-md-6 col-sm-6 col-xs-12" style="background-color: aquamarine;">
+                    <h1>salads</h1>
+                    <img class="img-responsive" src="images/pechano_border.png" alt=""/>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-left">
+                            <h1>olive special</h1>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+                            <h1>$5.99</h1>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-left">
+                            <h1>greek salad</h1>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+                            <h1>$5.50</h1>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-left">
+                            <h1>gushto salad</h1>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+                            <h1>$5.29</h1>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12" style="background-color: lightseagreen;">
+                    <h1>main dishes</h1>
+                    <img class="img-responsive" src="images/pechano_border.png" alt=""/>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-left">
+                            <h1>kakaraught pecial</h1>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+                            <h1>$5.99</h1>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-left">
+                            <h1>roast lamb</h1>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+                            <h1>$5.50</h1>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-left">
+                            <h1>fried chicken</h1>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+                            <h1>$5.29</h1>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-left">
+                            <h1>pastitaslo</h1>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+                            <h1>$5.29</h1>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- 4th part start -->
 
-        <div class="container-fluid forth-div">
-            <div class="container margin-forth-div-content">
-                <div class="row">
-                    <div class="col-md-5 col-sm-5 col-xs12"> <!--1st column-->
-                        <div class="row">
-                            <h1 class="Just-the-right-food text-center center-block">Appetisers</h1>
-                            <img class="img-responsive gtext-center center-block" src="images/pechano_border.png" alt=""/>
-
-                            <h4 class="wpl">Tzatsiki <span>$3.99</span></h4>
-                            <p class="padding text-center center-block">Refreshing traditional cucumber and garlic yoghurt dip.</p>
-                            <h4 class="wpl">Aubergine Salad <span>$5.50 </span></h4>
-                            <p class="padding text-center center-block">Pureed eggplant, garlic, green pepper and tomato dip.</p>
-                            <h4 class="wpl">Aubergine Salad <span>$5.29</span></h4>
-                            <p class="padding text-center center-block">Pureed eggplant, garlic, green pepper and tomato dip.</p>                            
-                        </div>
-                        <br>
-                        <div class="row">
-                            <h1 class="Just-the-right-food text-center center-block">Salads</h1>
-                            <img class="img-responsive gtext-center center-block" src="images/pechano_border.png" alt=""/>
-
-                            <h4 class="wpl">Olive Special <span>$5.99</span></h4>
-                            <p class="padding text-center center-block">Refreshing traditional cucumber and garlic yoghurt dip.</p>
-                            <h4 class="wpl">Greek Salad <span>$5.50 </span></h4>
-                            <p class="padding text-center center-block">Pureed eggplant, garlic, green pepper and tomato dip.</p>
-                            <h4 class="wpl">Gushto Salad <span>$5.29</span></h4>
-                            <p class="padding text-center center-block">Pureed eggplant, garlic, green pepper and tomato dip.</p>
-                        </div>
-
-                    </div>
-                    <div class="col-md-2 col-sm-2">
-                    </div>
-                    <div class="col-md-5 col-sm-5 col-xs12"> <!-- 2nd column-->
-                        <div class="row">
-                            <h1 class="Just-the-right-food text-center center-block">Starters</h1>
-                            <img class="img-responsive gtext-center center-block" src="images/pechano_border.png" alt=""/>
-
-                            <h4 class="wpl">Haloume <span>$3.99</span></h4>
-                            <p class="padding text-center center-block">Refreshing traditional cucumber and garlic yoghurt dip.</p>
-                            <h4 class="wpl">Spanish Ple <span>$5.50 </span></h4>
-                            <p class="padding text-center center-block">Pureed eggplant, garlic, green pepper and tomato dip.</p>
-
-                        </div>
-                        <br>
-                        <div class="row">
-                            <h1 class="Just-the-right-food text-center center-block">Main Dishes</h1>
-                            <img class="img-responsive gtext-center center-block" src="images/pechano_border.png" alt=""/>
-                            <h4 class="wpl">Olive Special <span>$5.99</span></h4>
-                            <p class="padding text-center center-block">Pureed eggplant, garlic, green pepper and tomato dip.</p>
-                            <h4 class="wpl">Roast Lamb <span>$5.50</span></h4>
-                            <p class="padding text-center center-block">Refreshing traditional cucumber and garlic yoghurt dip.</p>
-                            <h4 class="wpl">Fried Chicken <span>$5.29 </span></h4>
-                            <p class="padding text-center center-block">Pureed eggplant, garlic, green pepper and tomato dip.</p>
-                            <h4 class="wpl">Pastitaslo <span>$5.29</span></h4>
-                            <p class="padding text-center center-block">Pureed eggplant, garlic, green pepper and tomato dip.</p>
-
-                        </div>
-
-                    </div>                  
-                </div>
+        <!-- div four ends -->
 
 
-            </div>
-        </div>
+        <!-- div five starts -->
 
-        <!-- 5th part start -->
-
-        <div class="container-fluid fifth-wrapper">
-            <div class="row ">
-                <div class="col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4 col-xs-offset-2 col-xs-8 box-opacity margin-sik-kabab">
-                    <h1 class="Fine-ingredients text-center center-block">Guest Reviews</h1>
-                    <img class="text-center center-block" src="images/pechano-white.png" alt="">
-                    <p class=" fine-ingredient-white text-center center-block "><i class="fa fa-quote-left fa-2x" aria-hidden="true"></i>  If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps<br>
-                        our customers coming back for more. Perfect materials and freshly baked food,<br>
-                        delicious Lambda cakes, muffins, and gourmet coffees make us hard to resist!<br>
-                        Stop in today and check us out!<br>
-                        <br>
-                        <br>
-                        <span class="New-york">-food inc, New York</span> </p>
-                </div>
-            </div>
-        </div>
-
-        <!--     6th part start -->
-
-        <div class="container-fluid sixth-wrapper">
-            <div class="row margin-sixth-wrapper">
-                <div class="col-md-6 col-sm-6 col-xs-12 text-center center-block">
-                    <img class="table-2 img-responsive text-center center-block" src="images/table2.png" alt="">
-                </div>
-                <div class="col-md-6 col-sm-6 col-xs-12 text-center center-block  ">
-                    <h1 class="Just-the-right-food">Just the right food</h1>
-                    <img  src="images/pechano_border.png" alt="">
-                    <br>
-                    <br>
-                    <p>you’ve been to one of our restaurants, you’ve seen – and<br>
-                        tasted – what keeps our customers coming back for more.<br>
-                        Perfect materials and freshly baked food, delicious Lambda<br>
-                        cakes, muffins, and gourmet coffees make us hard to resist!<br>
+        <div class="container-fluid divFive">
+            <div class="container">
+                <div class="col-md-6 col-sm-6 col-xs-8 text-center center-block">
+                    <h1>guest reviews</h1>
+                    <img class="text-center center-block img-responsive" src="images/pechano-white.png" alt=""/>
+                    <p> If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps
+                        our customers coming back for more. Perfect materials and freshly baked food,
+                        delicious Lambda cakes, muffins, and gourmet coffees make us hard to resist!
                         Stop in today and check us out!</p>
-                    <br>
-                    <br>
-                    <p>Delicious Lambda cakes, muffins, and gourmet coffees make<br>
-                        us hard to resist! Stop in today and check us out! Perfect<br>
-                        materials and freshly baked food.</p>
-
-                    <form >
-                        <div class="row text-center center-block">
-                            <div class="col-md-offset-2 col-md-3 col-sm-offset-3 col-sm-3 col-xs-12">
-                                <label>Name</label>
-                                <input type="text" class="form-control designBorder" placeholder="your name*">
-                            </div>
-
-                            <div class="col-md-offset-2 col-md-3 col-sm-offset-3 col-sm-3 col-xs-12">
-                                <label>E-Mail</label>
-                                <input type="email" class="form-control designBorder" placeholder="your e-mail*">
-                            </div>
-
-                        </div>
-                        <br>
-                        <div class="row text-center center-block">
-                            <div class="col-md-offset-2 col-md-3 col-sm-offset-3 col-sm-3 col-xs-12 ">
-                                <label>date</label>
-                                <input type="text" class="form-control designBorder" placeholder="date*">
-                            </div>
-
-                            <div class="col-md-offset-2 col-md-3 col-sm-offset-3 col-sm-3 col-xs-12">
-                                <label>party number</label>
-                                <input type="number" class="form-control designBorder" placeholder="party number*">
-                            </div>
-
-                        </div>
-                    </form>
-
                 </div>
             </div>
         </div>
 
+        <!-- div five ends -->
 
-        <!--  7th Part Start  -->
 
-        <div class="container-fluid background-seventh">
-            <div class="row margin-seventh-content">
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                    <h3 class="header-seven text-center center-block">About Us</h3>
-                    <img class="text-center center-block" src="images/pechano-white.png" alt=""/><br>
-                    <p class="text-center center-block down-white">Lambda's new and expanded Chelsea location<br>
-                        represents a truly authentic Greek patisserie,<br>
-                        featuring breakfasts of fresh croissants and<br>
-                        steaming bowls of café.</p>
+        <!-- div six starts -->
+
+        <div class="container-fluid divSix">
+            <div class="container">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <img class="text-center center-block img-responsive" src="images/divfiveimg.jpg" alt=""/>
                 </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <h1>just the right food</h1>
+                    <img src="images/pechano_border.png" alt=""/>
+                    <p>you’ve been to one of our restaurants, you’ve seen – and
+                        tasted – what keeps our customers coming back for more.
+                        Perfect materials and freshly baked food, delicious Lambda
+                        cakes, muffins, and gourmet coffees make us hard to resist!
+                        Stop in today and check us out!
 
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                    <h3 class="header-seven text-center center-block">Opening Hours</h3>
-                    <img class="text-center center-block" src="images/pechano-white.png" alt=""/><br>
-                    <p class="text-center center-block down-white">Mon-Thu: 7:00am - 8:00pm<br>
-                        Fri-Sun: 7:00am - 10pm</p>
+                    </p>
                     <br>
-                    <div class="row text-center center-block">
-                        <div class="col-md-offset-3 col-md-1 col-sm-offset-4 col-sm-1 col-xs-offset-2 col-xs-1 gap">
-                            <a href="#"><i class="fa fa-cc-mastercard col-sm-2 fa-2x MPSV" aria-hidden="true"></i></a>
+                    <p>
+                        Delicious Lambda cakes, muffins, and gourmet coffees make
+                        us hard to resist! Stop in today and check us out! Perfect
+                        materials and freshly baked food.
+                    </p>
+                    <div class="row">
+                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                            <label>name</label>
+                            <input type="text" class="form-control" placeholder="name" style="height: 40px; border-radius: 0px; background-color: transparent; border: 1px solid #f1c40f;">
                         </div>
-
-                        <div class="col-md-1 col-sm-1 col-xs-1 gap">
-                            <a href="#"><i class="fa fa-paypal col-sm-2 fa-2x MPSV" aria-hidden="true"></i></a>
+                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                            <label>E-mail</label>
+                            <input type="email" class="form-control" placeholder="mail" style="height: 40px; border-radius: 0px; background-color: transparent; border: 1px solid #f1c40f;">
                         </div>
-
-                        <div class="col-md-1 col-sm-1 col-xs-1 gap">
-                            <a href="#"><i class="fa fa-cc-stripe col-sm-2 fa-2x MPSV" aria-hidden="true"></i></a>
+                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                            <label>date</label>
+                            <input type="date" class="form-control" style="height: 40px; border-radius: 0px; background-color: transparent; border: 1px solid #f1c40f;">
                         </div>
-
-                        <div class="col-md-1 col-sm-1 col-xs-1 gap">
-                            <a href="#"><i class="fa fa-cc-visa col-sm-2 fa-2x MPSV" aria-hidden="true"></i></a>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                    <h3 class="header-seven text-center center-block">Our Location</h3>
-                    <img class="text-center center-block" src="images/pechano-white.png" alt=""><br>
-                    <p class="text-center center-block down-white">19th Paradise Street Sitia<br>128 Meserole Avenue</p>
-                    <br>
-                    <div style="margin-bottom: 20px;" class="row">
-                        <div class="col-md-offset-4 col-md-1 col-sm-offset-4 col-sm-1 col-xs-offset-3 col-xs-1">
-                            <a href="#"><i class="fa fa-facebook col-sm-2 fa-2x MPSV" aria-hidden="true"></i></a>
-                        </div>
-
-
-                        <div class="col-md-1 col-sm-1 col-xs-1">
-                            <a href="#"><i class="fa fa-twitter col-sm-2 fa-2x MPSV" aria-hidden="true"></i></a>
-                        </div>
-
-
-                        <div class="col-md-1 col-sm-1 col-xs-1">
-                            <a href="#"><i class="fa fa-youtube col-sm-2 fa-2x MPSV" aria-hidden="true"></i></a>
-                        </div>
-
-
-                        <div class="col-md-1 col-sm-1 col-xs-1">
-                            <a href="#"><i class="fa fa-linkedin col-sm-2 fa-2x MPSV" aria-hidden="true"></i></a>
+                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                            <label>party number</label>
+                            <input type="number" class="form-control" placeholder="number" style="height: 40px; border-radius: 0px; background-color: transparent; border: 1px solid #f1c40f;">
                         </div>
                     </div>
+                    <a href="#" class="col-md-12 col-sm-12 col-xs-12 btn btnBook">book now</a>
                 </div>
             </div>
         </div>
 
-        <!-- The Final Part -->
 
-        <div class="container-fluid last-part">
-            <div class="row margin-last-part-content">
-                <div class="col-md-6 col-sm-6 col-xs-12 text-center center-block">
-                    <p class="text-uppercase AB">©  2017| All Rights Reserved</p>
+        <!-- div six ends -->
+
+        <!-- div seven starts -->
+
+        <div class="container-fluid divSeven">
+            <div class="container">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <h1>about us</h1>
+                    <img class="img-responsive text-center center-block" src="images/pechano-white.png" alt=""/>
+                    <p>
+                        Lambda's new and expanded Chelsea location
+                        represents a truly authentic Greek patisserie,
+                        featuring breakfasts of fresh croissants and
+                        steaming bowls of café.
+                    </p>
                 </div>
-                <div class="col-md-6 col-sm-6 col-xs-12 text-center center-block">
-                    <p class="text-uppercase text-center center-block AB ">Designed By Roronoa Sazzed</p>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <h1>opening hours</h1>
+                    <img class="img-responsive text-center center-block" src="images/pechano-white.png" alt=""/>
+                    <p>mon-thu: <span>7:00am - 8:00pm</span></p>
+                    <p>fri-sun<span>7:00am - 10:00pm</span></p>
+                    <a href="#" class="btn"><i class="fa fa-cc-paypal fa-2x"></i></a>
+                    <a href="#" class="btn"><i class="fa fa-cc-stripe fa-2x"></i></a>
+                    <a href="#" class="btn"><i class="fa fa-cc-visa fa-2x"></i></a>
+                    <a href="#" class="btn"><i class="fa fa-cc-mastercard fa-2x"></i></a>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <h1>our location</h1>
+                    <img class="img-responsive text-center center-block" src="images/pechano-white.png" alt=""/>
+                    <p>19th Paradise Street Sitia <br>
+                        128 Meserole Avenue</p>
+                    <a href="#" class="btn"><i class="fa fa-facebook-f fa-2x"></i></a>
+                    <a href="#" class="btn"><i class="fa fa-twitter fa-2x"></i></a>
+                    <a href="#" class="btn"><i class="fa fa-youtube-play fa-2x"></i></a>
+                    <a href="#" class="btn"><i class="fa fa-bicycle fa-2x"></i></a>
                 </div>
             </div>
         </div>
+
+        <!-- div seven ends -->
+
+
+
+
 
 
 
@@ -396,6 +475,30 @@
         <script type="text/javascript">
 
         </script>
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function (b, o, i, l, e, r) {
+                b.GoogleAnalyticsObject = l;
+                b[l] || (b[l] =
+                        function () {
+                            (b[l].q = b[l].q || []).push(arguments)
+                        });
+                b[l].l = +new Date;
+                e = o.createElement(i);
+                r = o.getElementsByTagName(i)[0];
+                e.src = 'https://www.google-analytics.com/analytics.js';
+                r.parentNode.insertBefore(e, r)
+            }(window, document, 'script', 'ga'));
+            ga('create', 'UA-XXXXX-X', 'auto');
+            ga('send', 'pageview');
+        </script>
+
 
     </body>
 </html>

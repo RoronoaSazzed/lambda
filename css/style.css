@@ -1,357 +1,179 @@
-.container-wrapper{
-    background: url(../images/main_background.jpg);
-    min-height: 750px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-}
+/* media query for responsiveness
+@media (max-width: 767px) {}
+@media (min-width: 768px) {}
+@media (min-width: 1200px) {}
+font-family: 'Ubuntu Condensed', sans-serif;
+*/
 
-.navbar {
-    background-color: transparent;
-    background: transparent;
-    border-color: transparent;
-    color: white;
-}
-.margin-navbar{
-    margin-top: 40px;
-}
-.nav.navbar-nav li a {
-    color: white;
-}
-.nav.navbar-nav li a:hover {
-    color:  #F5DEAA;
-    border-bottom: 1px solid wheat;
-}
-.nav.navbar-nav li .TYF{
-    color: #dab33e;
-}
-.nav.navbar-nav li .TYF:hover{
-    color: #8A4E05;
-}
-
-@media (min-width: 760px){
-    .TYF{
-        color: #dab33e;
-        margin-top: 5px; 
-    }
-}
-
-/*.HAIMRR{
-    font-size: 16px;
-    padding: 12px;
-    font-weight: bold;
-    font-family: 'Gentium Book Basic', serif;
-}
-
-.HAIMRR:hover{
-    font-family: 'Gentium Book Basic', serif;
-
-    text-decoration: none;
-}*/
-
-.TYF:hover{
-    color: #8A4E05;
-    border-bottom: 1px solid wheat;
-}
-
-.margin-the-right-iungredients{
-    margin-top: 150px;
-}
-@media (max-width: 760px){
-    .the-right-ingredients{
-        color: white;
-        font-family: 'Yeseva One', cursive;
-        font-size: 35px;
-    }
-}
-@media (min-width: 760px){
-    .the-right-ingredients{
-        color: white;
-        font-family: 'Yeseva One', cursive;
-        font-size: 78px;
-    }
-}
-
-.pechano-white{
-    margin-bottom: 5%;
-}
-.buttons-table-menu{
-    margin-top: 60px;
-}
-@media (max-width: 760px){
-    .BOOK-A-TABLE{
-        color: white;
-        margin-bottom: 50px;
-        width: 100%;
-        padding-top: 15px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 15px;
-        font-size: 15px;
-        border: 2px solid black;
-        background-color: black;
-        opacity: .7;
-        float: center;
-    }
-    .bottom{
-        margin-bottom: 10%;
-    }
-}
-@media (min-width: 760px){
-    .BOOK-A-TABLE{
-        color: white;
-        padding-top: 15px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 15px;
-        font-size: 15px;
-        border: 2px solid black;
-        background-color: black;
-        opacity: .7;
-        float: right;
-    }
-}
-.BOOK-A-TABLE:hover{
-    color: white;
-    border: 2px solid black;
-    background-color: transparent;
-    text-decoration: none;
-}
-@media (min-width: 760px){
-    .SEE-THE-MENU{
-        color: white;
-        float: left;;
-        padding-top: 15px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 15px;
-        font-size: 15px;
-        border: 2px solid #DAB935;
-        background-color: #DAB935;
-        opacity: .7;
-    }
-}
-@media (max-width: 760px){
-    .SEE-THE-MENU{
-        color: white;
-        width: 100%;
-        padding-top: 15px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 15px;
-        font-size: 15px;
-        border: 2px solid #DAB935;
-        background-color: #DAB935;
-        opacity: .7;
-        margin-bottom: 5%;
-    }  
-}
-
-.SEE-THE-MENU:hover{
-    color: white;
-    border: 2px solid #DAB935;
-    background-color: transparent;
-    text-decoration: none;
-}
-/*1st wrapper end */
-
-
-/*2nd wrapper start*/
-
-
-.second-wrapper{
-    background-image: url(../images/patternback.png);
-    min-height: 710px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-}
-
-.Just-the-right-food{
-    color: #D5AB2D;
+/*
+    header:
     font-family: 'Yeseva One', cursive;
-    font-size: 35px;
-}
+    
+    other:
+    font-family: 'Allerta Stencil', sans-serif;
+*/
 
-.margin-second-wrapper{
-    margin-top: 80px;
-}
-.pechano-border{
-    margin-top: -35px;
-}
-.cook{
-    margin-top: 50px;
-}
+/* div one starts */
 
-/*3rd wrapper start*/
-
-.third-wrapper{
-    background: url(../images/green_background.jpg);
-    min-height: 500px;
-    background-repeat: no-repeat;
+.divOne {
+    background-image: url(../images/divone.jpg);
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
-.Fine-ingredients{
-    color: white;
+
+.mainHeader {
     font-family: 'Yeseva One', cursive;
-    font-size: 35px;
-}
-
-.fine-ingredients-box{
-    margin-top: 400px;;
-}
-
-.fine-ingredient-white{
+    font-size: 80px;
     color: white;
-    margin-top: 30px;
+    margin-top: 20%;
 }
 
-/*4th wrapper start*/
+.btn {
+    border-radius: 0;
+}
 
-.forth-div{
-    background: url(../images/blockpattern.png);
-    min-height: 750px;
+.btnBook,
+.btnMenu {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 12px 20px;
+}
+
+.btnBook {
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.btnBook:hover {
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+}
+
+.btnMenu {
+    background-color: rgba(241, 196, 15, .7);
+}
+
+.btnMenu:hover {
+    color: white;
+    background-color: rgba(243, 156, 18, .7);
+}
+
+.marginBtn {
+    margin-top: 10%;
+}
+
+/* dic one ends */
+
+/* div two starts */
+
+.divTwo {
+    background-image: url(../images/divtwo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
+    min-height: 0px;
+    padding: 50px 50px;
+}
+
+.mainFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstFlex {
+    flex-order: 1;
+    width: 45%;
+    padding: 25px 10px;
+    box-sizing: border-box;
+}
+
+.secondFlex {
+    flex-order: 2;
+    width: 45%;
+    padding: 25px 10px;
+    box-sizing: border-box;
+}
+
+/* div two ends */
+
+/* div three starts */
+
+
+.divThree{
+    background-image: url(../images/divthree.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-}
-.wpl{
-    font-family: 'Yeseva One', cursive;
-    color: #D6AB2D;
-    border-bottom: 1px solid #e2d8b0;
-}
-h4 span{
-    float: right;
-}
-.padding{
-    padding-bottom: 15px;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding: 50px 50px;
 }
 
-.margin-forth-div-content{
-    margin-top: 50px;
-    margin-bottom: 50px;
+.ingredientsDiv{
+    background-color: rgba(0,0,0,.7);
+    padding: 50px 50px;
+    color: white;
 }
 
-.p-indent{
-    text-indent: 20px;
+.ingredientsDiv ul li {
+    margin: 5% 2%;
 }
 
+/* third dic ends */
 
-/*5th Wrapper Start */
+/* fourth dicv starts */
 
-.fifth-wrapper{
-    background: url(../images/sik-kabab.png);
-    min-height: 600px;
+.divFour{
+    background-image: url(../images/divfour.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
+    background-attachment: fixed;
+    min-height: 0px;
+    padding: 50px 20px;
 }
 
-@media(min-width:760px){.box-opacity{
-                            background-color: black;
-                            opacity: .7;
-                        }
-}
-@media(max-width:760px){
+/* div four ends */
 
-    .box-opacity{
-        margin-bottom: 20%;
-        background-color: black;
-        opacity: .6
-    }
-}
-.New-york{
-    margin-left: -20%;;
+/* div five starts */
+
+.divFive{
+    background-image: url(../images/divfive.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 550px;
+    padding: 50px;
 }
 
-.margin-sik-kabab{
-    margin-top: 150px;
-}
+/* div five ends */
 
+/* div six starts */
 
-
-/* 6th part start --*/
-.sixth-wrapper{
-    background: url(../images/patternback.png);
-    min-height: 710px;
+.divSix{
+    background-image: url(../images/divtwo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
+    background-attachment: fixed;
+    min-height: 0px;
+    padding: 75px 50px;
 }
 
-.margin-sixth-wrapper{
-    margin-top: 100px;
-}
-.table-2{
-    width: 400px;
-    height: 486px;
+/* div six ends */
+
+/* div seven starts */
+
+.divSeven{
+    background: linear-gradient(to top,  #000000 0%, #30336b 100%);
+    min-height: 0px;
+    padding: 50px;
+    color: whitesmoke;
 }
 
-/* 7th part start*/
-
-.background-seventh{
-    background-color: #191919;
-    min-height: 300px;
-}
-form{
-    margin-bottom: 50px;
-}
-.margin-seventh-content{
-    margin-top: 35px;
-}
-.header-seven{
-    color: white;
-    font-family: 'Yeseva One', cursive;
-}
-
-.down-white{
-    color: white;
-}
-
-.MPSV{
-    color: wheat;
-}
-
-.MPSV:hover{
-    color: #8A4E05;
-}
-
-.last-wrapper{
-    background-color: wheat;
-}
-.last-part{
-    background-color: #D5AB2D;
-    min-height: 75px;
-}
-
-.margin-last-part-content{
-    margin-top: 25px;
-}
-
-.AB{
-    color: white;
-}
-
-.gap{
-    margin-right: 3%;
-}
-form{
-    color: #D6AB2D;
-}
-.designBorder{
-    border: 2px solid #D5AB2D;
-}
-@media (min-width: 760px){
-
-}
-
-
-
-
+/* div seven ends */
