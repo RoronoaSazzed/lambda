@@ -11,7 +11,38 @@ font-family: 'Ubuntu Condensed', sans-serif;
     
     other:
     font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'EB Garamond', serif;
 */
+
+
+
+/* extra edition starts */
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+    color: #F1C40F;
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: 'Allerta Stencil', sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+    line-height: 25px;
+}
+
+::-moz-selection {
+    color: white;
+    background: rgba(241, 196, 15, .7);
+}
+
+::selection {
+    color: white;
+    background: rgba(241, 196, 15, .7);
+}
+
+/* extra edition ends */
 
 /* div one starts */
 
@@ -24,6 +55,136 @@ font-family: 'Ubuntu Condensed', sans-serif;
     height: 100vh;
 }
 
+.bubble {
+    height: 10px;
+    width: 10px;
+    display: block;
+    border-radius: 50%;
+    background-color: rgba(232, 67, 147, 1);
+}
+
+.animationLogo1 {
+    position: absolute;
+    top: -55px;
+    left: 75px;
+    animation-name: bubbleLogo;
+    animation-duration: 1.3s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 200ms;
+}
+
+.animationLogo2 {
+    position: absolute;
+    top: -19px;
+    left: 14px;
+    animation-name: bubbleLogo;
+    animation-duration: 1.5s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 294ms;
+}
+
+.animationLogo3 {
+    position: absolute;
+    top: 5px;
+    left: 55px;
+    animation-name: bubbleLogo;
+    animation-duration: 1.1s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 340ms;
+}
+
+.animationLogo4 {
+    position: absolute;
+    top: -10px;
+    left: 100px;
+    animation-name: bubbleLogo;
+    animation-duration: 1.7s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 380ms;
+}
+
+.animationLogo5 {
+    position: absolute;
+    top: 0px;
+    left: 120px;
+    animation-name: bubbleLogo;
+    animation-duration: 2.2s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 290ms;
+}
+
+@keyframes bubbleLogo {
+    0% {
+        transform: translateY(inherit);
+        opacity: 0;
+
+    }
+
+    50% {
+        opacity: 21;
+    }
+
+    100% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+}
+
+.navbar-default {
+    background: linear-gradient(to right, transparent 0%, rgba(48, 51, 107, .7) 20%, 80%, transparent 100%);
+    border-color: transparent;
+    padding: 15px 0px;
+}
+
+
+
+.VerticalCentering {
+    position: relative;
+    top: 50%;
+    transform: translateY(15%);
+}
+
+.navbar-default .navbar-header {
+    background-color: transparent;
+}
+
+
+.navbar-default .navbar-nav li a {
+    color: #f1c40f;
+    text-shadow: none;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 15px;
+    padding: 10px 12px;
+    margin: 5px;
+    background-color: rgba(19, 15, 64, .7);
+    transition: 300ms;
+    border-radius: 20px 0px;
+    box-shadow: 2px 2px 2px 2px #130F40;
+}
+
+
+
+.navbar-default .navbar-nav li a:hover {
+    color: #f39c12;
+    border-radius: 0;
+    background-color: rgba(19, 15, 64, .7);
+}
+
 .mainHeader {
     font-family: 'Yeseva One', cursive;
     font-size: 80px;
@@ -33,14 +194,16 @@ font-family: 'Ubuntu Condensed', sans-serif;
 
 .btn {
     border-radius: 0;
+    font-family: 'Allerta Stencil', sans-serif;
+    color: white;
 }
 
 .btnBook,
 .btnMenu {
-    font-family: 'Allerta Stencil', sans-serif;
-    font-size: 20px;
-    color: white;
+    font-size: 17px;
     padding: 12px 20px;
+    transition: 250ms;
+    margin: 0px 10px;
 }
 
 .btnBook {
@@ -65,7 +228,7 @@ font-family: 'Ubuntu Condensed', sans-serif;
     margin-top: 10%;
 }
 
-/* dic one ends */
+/* div one ends */
 
 /* div two starts */
 
@@ -79,42 +242,47 @@ font-family: 'Ubuntu Condensed', sans-serif;
     padding: 50px 50px;
 }
 
-.mainFlex {
-    display: flex;
-    justify-content: space-between;
+.divTwo h1 {
+    font-size: 35px;
 }
 
-.firstFlex {
-    flex-order: 1;
-    width: 45%;
-    padding: 25px 10px;
-    box-sizing: border-box;
+.divTwo p {
+    margin-top: 10%;
 }
 
-.secondFlex {
-    flex-order: 2;
-    width: 45%;
-    padding: 25px 10px;
-    box-sizing: border-box;
+.cook {
+    margin-top: 8%;
+}
+
+.rightFoodIntro{
+    padding: 0px 20px;
+}
+
+.dish {
+    filter: drop-shadow(-40px 10px 10px grey);
 }
 
 /* div two ends */
 
 /* div three starts */
 
-
-.divThree{
-    background-image: url(../images/divthree.jpg);
+.divThree {
+    background-image: url(../images/divthree-2.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    height: 600px;
-    padding: 50px 50px;
+    min-height: 0px;
+    padding-top: 200px;
+    padding-bottom: 0px;
 }
 
-.ingredientsDiv{
-    background-color: rgba(0,0,0,.7);
+.divThree h1 {
+    font-size: 35px;
+}
+
+.ingredientsDiv {
+    background-color: rgba(0, 0, 0, .7);
     padding: 50px 50px;
     color: white;
 }
@@ -123,39 +291,102 @@ font-family: 'Ubuntu Condensed', sans-serif;
     margin: 5% 2%;
 }
 
-/* third dic ends */
+/* third div ends */
 
-/* fourth dicv starts */
+/* fourth div starts */
 
-.divFour{
+.divFour {
     background-image: url(../images/divfour.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     min-height: 0px;
-    padding: 50px 20px;
+    padding: 100px 70px;
+}
+
+.titleMenu {
+    font-size: 40px !important;
+    text-align: center;
+}
+
+.padding {
+    padding: 30px;
+}
+
+.divFour h1 {
+    font-size: 22px;
+}
+
+.divFour p {
+    border-top: 1px solid #f1c40f;
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.divFour img {
+    display: block;
+    margin: 0 auto;
+}
+
+.marginContent {
+    margin-top: -9%;
 }
 
 /* div four ends */
 
 /* div five starts */
 
-.divFive{
-    background-image: url(../images/divfive.jpg);
+.divFive {
+    background-image: url(../images/divfive-2.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     min-height: 550px;
-    padding: 50px;
+    padding: 150px 0px;
+    color: white;
+    animation-name: backgroundSlider;
+    animation-fill-mode: forwards;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes backgroundSlider {
+    0%,
+    40% {
+        background-image: url(../images/divfive-2.jpg);
+    }
+    50%,
+    100% {
+        background-image: url(../images/divfive-3.jpg);
+    }
+}
+
+.divFive h1 {
+    font-size: 35px;
+}
+
+.guestReviewContent {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0px 30px;
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+
+.guestReviewContent p {
+    margin-top: 6%;
 }
 
 /* div five ends */
 
 /* div six starts */
 
-.divSix{
+.divSix {
     background-image: url(../images/divtwo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -165,15 +396,66 @@ font-family: 'Ubuntu Condensed', sans-serif;
     padding: 75px 50px;
 }
 
+.burger {
+    box-shadow: 0px 10px 10px 4px grey;
+}
+
+.divSix h1 {
+    font-size: 35px;
+}
+
+.divSix label {
+    display: none;
+}
+
+.divSix p {
+    margin-top: 5%;
+}
+
+.marginForms {
+    margin-top: 10%;
+}
+
+.btnBooking {
+    font-size: 17px;
+    padding: 15px 25px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    transition: 300ms;
+}
+
+.btnBooking:hover {
+    color: black;
+    background-color: rgba(241, 196, 15, .7);
+}
+
 /* div six ends */
 
 /* div seven starts */
 
-.divSeven{
-    background: linear-gradient(to top,  #000000 0%, #30336b 100%);
+.divSeven {
+    background: linear-gradient(to top, #000000 0%, #30336b 100%);
     min-height: 0px;
     padding: 50px;
     color: whitesmoke;
 }
+
+.divSeven p {
+    margin-top: 7%;
+}
+
+.colorIcon {
+    padding: 2px;
+    color: #f1c40f;
+    box-shadow: 0px 0px 10px 1px #f39c12;
+    transition: 250ms;
+}
+
+.colorIcon:hover {
+    color: #f39c12;
+    box-shadow: 0px 0px 10px 1px #f1c40f;
+}
+
+
 
 /* div seven ends */
